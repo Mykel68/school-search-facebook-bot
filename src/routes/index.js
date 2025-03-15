@@ -31,7 +31,7 @@ router.get('/privacy-policy', (req, res) => {
       </head>
       <body>
         <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> [Month Day, Year]</p>
+        <p><strong>Update Date:</strong> 15 March 2025</p>
 
         <p>
           Thank you for choosing to use our Facebook School Bot (the “Service”). 
