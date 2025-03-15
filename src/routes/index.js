@@ -15,6 +15,7 @@ router.get('/privacy-policy', (req, res) => {
       <head>
         <title>Privacy Policy</title>
         <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <style>
           body {
             font-family: Arial, sans-serif;

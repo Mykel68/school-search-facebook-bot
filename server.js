@@ -8,6 +8,9 @@ const app = express();
 
 app.use(bodyParser.json());
 
+// Serve static files (including the favicon)
+app.use(express.static('public'));
+
 // Main API routes
 app.use('/api', routes);
 
