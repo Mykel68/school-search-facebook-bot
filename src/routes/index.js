@@ -8,6 +8,9 @@ router.get('/', (req, res) => {
 
 router.use('/facebook', require('./facebook.routes'));
 
+// School search routes
+router.use('/schools', require('./school.routes'));
+
 router.get('/privacy-policy', (req, res) => {
     res.send(`
     <!DOCTYPE html>
