@@ -1,0 +1,15 @@
+
+## Setup
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Create a `.env` file with your configuration (see above).
+4. Run `npm start` or `npm run dev` to start the server.
+
+## Dependencies
+
+- **express** – Web framework for Node.js
+- **axios** – For making HTTP requests to Facebook APIs
+- **body-parser** – Middleware for parsing JSON request bodies
+- **dotenv** – To load environment variables
+- **nodemon** (dev dependency) – For automatic server restarts during development
